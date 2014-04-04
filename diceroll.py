@@ -4,8 +4,9 @@ import specialInput
 
 diceNumber = specialInput.int_input("how many dice do you want to have")
 
-diceSides = specialInput.int_input("how many sides do your dice have?")
 for x in range(diceNumber):
+
+    #ask how many sides
 
     result = random.randint(1,diceSides)
 
