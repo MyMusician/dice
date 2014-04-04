@@ -1,6 +1,11 @@
-import random 
+import random
 
-diceSides = random.randint(1,6)
-print "after you have read the README file, here is the result"
+import specialInput
 
-print diceSides
+diceSides = specialInput.int_input("how many sides does your die have?")
+
+result = random.randint(1,diceSides)
+
+print "after you have read the README file, here is the result:"
+
+print result
