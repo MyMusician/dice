@@ -6,7 +6,7 @@ diceNumber = specialInput.int_input("how many dice do you want to have")
 
 for x in range(diceNumber):
 
-    #ask how many sides
+    diceSides = specialInput.int_input("how many sides does your die have?")
 
     result = random.randint(1,diceSides)
 
